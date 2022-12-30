@@ -1,0 +1,12 @@
+global using Xunit;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using MovieManager.Infrastructure.DataAccessLayer;
+global using Microsoft.EntityFrameworkCore;
+global using MovieManager.Domain.Entities;
+global using MovieManager.Domain.ValueObjects;
+global using MovieManager.Application.Common.Interfaces;
+global using Serilog;
+global using IdentityModel.Client;
+global using MovieManager.Application.Directors.Queries.GetDirectorDetail;
+global using MovieManager.IntegrationTests.Common;
+global using Shouldly;

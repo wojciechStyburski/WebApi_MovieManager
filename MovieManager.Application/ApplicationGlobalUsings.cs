@@ -1,0 +1,16 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using MovieManager.Domain.Entities;
+global using MediatR;
+global using MovieManager.Application.Common.Interfaces;
+global using MovieManager.Domain.ValueObjects;
+global using AutoMapper;
+global using System.Reflection;
+global using Microsoft.Extensions.DependencyInjection;
+global using MovieManager.Application.Common.Mappings;
+global using MediatR.Pipeline;
+global using Microsoft.Extensions.Logging;
+global using MovieManager.Application.Common.Behaviours;
+global using System.Diagnostics;
+global using FluentValidation;
+global using AutoMapper.QueryableExtensions;
+global using MovieManager.Application.Directors.Queries.GetDirectorDetail;

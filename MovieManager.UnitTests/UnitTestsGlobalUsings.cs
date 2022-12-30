@@ -1,0 +1,13 @@
+﻿global using AutoMapper;
+global using MovieManager.Application.Common.Mappings;
+global using Xunit;
+global using MovieManager.Infrastructure.DataAccessLayer;
+global using Moq;
+global using Microsoft.EntityFrameworkCore;
+global using MovieManager.Domain.Entities;
+global using MovieManager.Domain.ValueObjects;
+global using MovieManager.UnitTests.Common;
+global using MovieManager.Application.Directors.Commands.CreateDirector;
+global using Shouldly;
+global using MovieManager.Application.Directors.Queries.GetDirectorDetail;
+global using MovieManager.Application.Directors.Queries.GetDirectors;
