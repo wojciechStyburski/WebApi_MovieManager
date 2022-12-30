@@ -147,4 +147,4 @@ app
 
 app.Run();
 
-public partial class Program { } // this part
+public partial class Program { }
